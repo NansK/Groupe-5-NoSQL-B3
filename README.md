@@ -18,7 +18,7 @@ Ci-dessous, voici comment utiliser cette API :
   
 --> Route "/replace_by_id/$idx$/$last_name/$first_name/$year/$status/$pay_basis/$position_title/$salary/$gender/" : Permet de remplacer un document portant l'ObjectID précisé en idx (premier élément à renseigner), puis de fournir les valeurs des champs suivants, dans l'ordre indiqué.
   
---> Route "/replace/$variable/$valeur$/$last_name$/$first_name/$year/$status/$pay_basis/$position_title/$salary/$gender/" : Permet de remplacer un document ayant la valeur renseignée de la variable renseignée, il faut ensuite fournir toutes les valeurs des champs qui suivent, en respectant l'ordre indiqué.
+--> Route "/replace/$variable/$valeur/$last_name/$first_name/$year/$status/$pay_basis/$position_title/$salary/$gender/" : Permet de remplacer un document ayant la valeur renseignée de la variable renseignée, il faut ensuite fournir toutes les valeurs des champs qui suivent, en respectant l'ordre indiqué.
   
 --> Route "/update/$idx/$variable/$valeur/" : Update le champ indiqué en variable avec la valeur indiquée, pour le document portant l'ObjectID renseigné en idx.
 
