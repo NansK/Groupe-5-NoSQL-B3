@@ -10,13 +10,13 @@ Ci-dessous, voici comment utiliser cette API :
 
 --> Route "/" : Permet d'accéder à un formulaire d'insertion de document, on y retrouve également tous les documents listés avec certaines de leurs informations et un bouton pour les supprimer.
 
---> Route "/search/$variable$/$value/" : En précisant l'une des variables (year, last_name, first_name, status, position_title, salary, pay_basis, gender), et une valeur associée à cette variable, nous pouvons effectuer une recherche qui retournera le ou les résultats sous format JSON.
+--> Route "/search/$variable/$value/" : En précisant l'une des variables (year, last_name, first_name, status, position_title, salary, pay_basis, gender), et une valeur associée à cette variable, nous pouvons effectuer une recherche qui retournera le ou les résultats sous format JSON.
   
 --> Route "/findmin/$n/" : Retourne les n résultats ayants les salaires les plus bas, il faut indiquer un entier positif en tant que n.
   
 --> Route "findmax/$n/" : Retourne les n résultats ayants les salaires les plus hauts, il faut indiquer un entier positif en tant que n.
   
---> Route "/replace_by_id/$idx$/$last_name/$first_name/$year/$status/$pay_basis/$position_title/$salary/$gender/" : Permet de remplacer un document portant l'ObjectID précisé en idx (premier élément à renseigner), puis de fournir les valeurs des champs suivants, dans l'ordre indiqué.
+--> Route "/replace_by_id/$idx/$last_name/$first_name/$year/$status/$pay_basis/$position_title/$salary/$gender/" : Permet de remplacer un document portant l'ObjectID précisé en idx (premier élément à renseigner), puis de fournir les valeurs des champs suivants, dans l'ordre indiqué.
   
 --> Route "/replace/$variable/$valeur/$last_name/$first_name/$year/$status/$pay_basis/$position_title/$salary/$gender/" : Permet de remplacer un document ayant la valeur renseignée de la variable renseignée, il faut ensuite fournir toutes les valeurs des champs qui suivent, en respectant l'ordre indiqué.
   
